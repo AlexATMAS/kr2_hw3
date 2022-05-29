@@ -15,7 +15,7 @@ public class Truck implements ServiceStations {
     public Truck(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
-    }
+    }///
 
 
     @Override
@@ -33,5 +33,4 @@ public class Truck implements ServiceStations {
     public void checkTrailer() {
         System.out.println("Проверяем прицеп!");
     }
-
 }

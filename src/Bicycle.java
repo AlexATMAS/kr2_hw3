@@ -6,7 +6,6 @@ public class Bicycle implements ServiceStations {
     public String getModelName() {
         return modelName;
     }
-
     public int getWheelsCount() {
         return wheelsCount;
     }
@@ -15,24 +14,17 @@ public class Bicycle implements ServiceStations {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
-
-
-
     @Override
     public void updateTyre() {
         System.out.println("Модель: " + getModelName());
         for (int i = 0; i < getWheelsCount(); i++) {
             System.out.println("Меняем покрышку!");
         }
-    }
-
+    } ///
     @Override
     public void checkEngine() {
-    }
-
+    }///
     @Override
     public void checkTrailer() {
-    }
-
-
+    }///
 }
