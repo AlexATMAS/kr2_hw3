@@ -24,15 +24,15 @@ public class Bicycle implements ServiceStations {
         for (int i = 0; i < getWheelsCount(); i++) {
             System.out.println("Меняем покрышку!");
         }
-    }
+    } ///
 
     @Override
     public void checkEngine() {
-    }
+    }///
 
     @Override
     public void checkTrailer() {
-    }
+    }///
 
 
 }
