@@ -10,13 +10,10 @@ public class Car  implements ServiceStations {
     public int getWheelsCount() {
         return wheelsCount;
     }
-
     public Car(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
-
-
     @Override
     public void updateTyre() {
         System.out.println("Модель: " + getModelName());
@@ -33,5 +30,4 @@ public class Car  implements ServiceStations {
     @Override
     public void checkTrailer() {
     }
-
 }

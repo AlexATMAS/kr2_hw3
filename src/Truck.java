@@ -33,5 +33,4 @@ public class Truck implements ServiceStations {
     public void checkTrailer() {
         System.out.println("Проверяем прицеп!");
     }
-
 }
