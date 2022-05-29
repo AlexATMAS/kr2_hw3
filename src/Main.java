@@ -22,7 +22,7 @@ public class Main {
         Service service = new Service();
         service.ServiceStation(bicycles);
         service.ServiceStation(cars);
-        service.ServiceStation(trucks);
+        service.ServiceStation(trucks);///
 
 
 
